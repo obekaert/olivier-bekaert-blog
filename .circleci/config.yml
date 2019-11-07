@@ -87,8 +87,6 @@ jobs:
           name: Firebase Deploy
           command: ./node_modules/.bin/firebase deploy --token "$FIREBASE_TOKEN"
 
-  circleci:
-
     
 workflows:
   version: 2
@@ -107,3 +105,4 @@ workflows:
       - codecov:
           requires:
             - coverage
+      - firebase
