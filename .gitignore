@@ -1,5 +1,6 @@
 node_modules/
 .cache/
+.firebase/
 public/
 npm-debug.log
 .eslintcache
