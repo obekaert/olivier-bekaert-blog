@@ -1,14 +1,14 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://olivierbekaert.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'Blog by Olivier Bekaert',
+  subtitle: 'Litterature (french), coding, music',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: 'UA-147993336-1',
   useKatex: false,
   menu: [
     {
@@ -25,13 +25,13 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'Olivier Bekaert',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'Blogueur littérature, datascience, tech, personal reflexion, no medical stuff here.',
     contacts: {
       email: '',
       facebook: '#',
-      telegram: '#',
+      telegram: '@obekaert',
       twitter: '#',
       github: '#',
       rss: '',
